@@ -1,7 +1,6 @@
 version: '3'
 services:
   ssh:
-    image: mheers/ssh-server
-    build: .
-    # ports:
-    #   - "2244:22"
+    image: mheers/ssh-server:latest
+    ports:
+      - "2244:22"
